@@ -1,10 +1,5 @@
 pipeline{
-    agent {
-        node{
-            label 'WS'
-        }
-    }
-    
+    agent any
 stages{
     stage('Dry Run Playbook'){
        steps{
