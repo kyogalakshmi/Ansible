@@ -11,6 +11,6 @@ stages{
 ansible-playbook install.yaml -e ansible_user=centos -e ansible_password=DevOps321-e ENV=dev
         echo hostname
         '''
-    }
+ }
 }
 }
